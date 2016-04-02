@@ -1,9 +1,22 @@
 {
   "name": "vscode-cheatsheet",
   "displayName": "vscode-cheatsheet",
-  "description": "Helper",
-  "version": "0.1.0",
+  "description": "Looking up code documentation for you",
+  "version": "0.1.1",
   "publisher": "MattiasPernhult",
+  "galleryBanner": {
+    "color": "#19AEE0",
+    "theme": "light"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MattiasPernhult/vscode-cheatsheet.git"
+  },
+  "homepage": "https://github.com/MattiasPernhult/vscode-cheatsheet#readme",
+  "bugs": {
+    "url": "https://github.com/MattiasPernhult/vscode-todo/issues"
+  },
+  "license": "MIT",
   "engines": {
     "vscode": "^0.10.10"
   },
@@ -18,7 +31,7 @@
     "commands": [
       {
         "command": "extension.cheatsheet",
-        "title": "Cheatsheet"
+        "title": "Cheatsheet: Find"
       }
     ]
   },
