@@ -7,7 +7,7 @@
         "sourceMap": true,
         "rootDir": "."
     },
-    "exclude": [
+    "excludes": [
         "node_modules"
     ]
 }
